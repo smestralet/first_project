@@ -4,5 +4,4 @@ from Familiares.views import show_data
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('show_data/', show_data , name='show_data')
 ]
